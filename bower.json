@@ -1,0 +1,22 @@
+{
+  "name": "aothun",
+  "description": "",
+  "main": "index.js",
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "^2.2.0",
+    "react": "^0.14.7",
+    "immutable": "^3.7.6",
+    "konva": "^0.11.1"
+  }
+}

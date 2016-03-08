@@ -1,0 +1,122 @@
+{
+  "startTime": 1457398018009,
+  "endTime": 1457398018839,
+  "config": {
+    "file": "D:\\design\\design\\webpack.config.js"
+  },
+  "buildHash": "943f3c56d843cb5f12122b95cdde818ab980e954",
+  "buildOptions": {
+    "config": "D:\\design\\design\\webpack.config.js",
+    "watch": true,
+    "context": {
+      "development": false
+    },
+    "hmr": false,
+    "publicPath": "",
+    "aggregateTimeout": 200,
+    "outputPath": "",
+    "staticRoot": "",
+    "staticUrl": "",
+    "cache": true,
+    "cacheDir": "D:\\design\\design\\.webpack_build_cache",
+    "hmrRoot": "",
+    "hmrPath": "/__hmr__",
+    "buildHash": "943f3c56d843cb5f12122b95cdde818ab980e954",
+    "cacheFile": "D:\\design\\design\\.webpack_build_cache\\943f3c56d843cb5f12122b95cdde818ab980e954.json",
+    "hmrNamespace": "/943f3c56d843cb5f12122b95cdde818ab980e954"
+  },
+  "outputOptions": {
+    "filename": "D:\\design\\design\\client\\build\\bundle.js",
+    "libraryTarget": "var",
+    "path": "",
+    "sourceMapFilename": "[file].map[query]",
+    "hotUpdateChunkFilename": "[id].[hash].hot-update.js",
+    "hotUpdateMainFilename": "[hash].hot-update.json",
+    "crossOriginLoading": false,
+    "hashFunction": "md5",
+    "hashDigest": "hex",
+    "hashDigestLength": 20,
+    "sourcePrefix": "\t",
+    "devtoolLineToLine": false
+  },
+  "assets": [
+    "D:\\design\\design\\client\\build\\bundle.js"
+  ],
+  "output": {
+    "main": {
+      "js": [
+        "D:\\design\\design\\client\\build\\bundle.js"
+      ],
+      "css": [],
+      "files": []
+    }
+  },
+  "urls": {},
+  "stats": {
+    "errors": [],
+    "warnings": [
+      "The 'NewWatchingPlugin' is no longer necessary (now default)"
+    ],
+    "version": "1.12.14",
+    "hash": "32e1c949a2d73335cbdd",
+    "time": 830,
+    "publicPath": "",
+    "assetsByChunkName": {
+      "main": "D:\\design\\design\\client\\build\\bundle.js"
+    },
+    "assets": [
+      {
+        "name": "D:\\design\\design\\client\\build\\bundle.js",
+        "size": 4523,
+        "chunks": [
+          0
+        ],
+        "chunkNames": [
+          "main"
+        ],
+        "emitted": true
+      }
+    ],
+    "chunks": [
+      {
+        "id": 0,
+        "rendered": true,
+        "initial": true,
+        "entry": true,
+        "extraAsync": false,
+        "size": 2743,
+        "names": [
+          "main"
+        ],
+        "files": [
+          "D:\\design\\design\\client\\build\\bundle.js"
+        ],
+        "hash": "91de4d3f0bd689096198",
+        "parents": [],
+        "origins": [
+          {
+            "moduleId": 0,
+            "module": "D:\\design\\node_modules\\jsx-loader\\index.js?insertPragma=React.DOM&harmony!D:\\design\\design\\client\\working\\main.js",
+            "moduleIdentifier": "D:\\design\\node_modules\\jsx-loader\\index.js?insertPragma=React.DOM&harmony!D:\\design\\design\\client\\working\\main.js",
+            "moduleName": "./client/working/main.js",
+            "loc": "",
+            "name": "main",
+            "reasons": []
+          }
+        ]
+      }
+    ],
+    "children": []
+  },
+  "fileDependencies": [
+    "D:\\design\\design\\client\\working\\common\\carousel.js",
+    "D:\\design\\design\\client\\working\\common\\editor.js",
+    "D:\\design\\design\\client\\working\\config.js",
+    "D:\\design\\design\\client\\working\\main.js",
+    "D:\\design\\design\\client\\working\\services.js"
+  ],
+  "dependencies": {
+    "webpack": "1.12.14",
+    "webpack-build": "1.0.1"
+  }
+}
