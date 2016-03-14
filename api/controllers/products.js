@@ -20,7 +20,7 @@ module.exports = {
 					model: models.products_images, 
 					required: false, 
 					attributes: ['path', 'uid', 'type', 'product_id'],
-					where: {enabled: 'yes', 'type': 'main'}
+					where: {enabled: 'yes'}
 				}
 			],
 			where: {enabled: 'yes'}
@@ -29,6 +29,22 @@ module.exports = {
 			res.json({data: productList});
 		}, function(error){
 			res.status(500).json({error: error});
+		})
+	},
+	postDetail: function(req, res){
+		var uid = req.body.uid;
+
+		models.products.findOne({
+			attributes: ['name', 'uid'],
+			include: [
+				{
+					model: models.products_images, 
+					required: false, 
+					attributes: ['path', 'uid', 'type', 'product_id'],
+					where: {enabled: 'yes', 'type': 'canvas'}
+				}
+			],
+			where: {enabled: 'yes', uid: uid}
 		})
 	}
 }
