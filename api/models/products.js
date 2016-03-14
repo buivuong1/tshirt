@@ -25,6 +25,9 @@ module.exports = function(sequelize, DataTypes){
 		},
 		content: {
 			type: DataTypes.TEXT
+		},
+		price: {
+			type: DataTypes.FLOAT
 		}
 	}, {
 		createdAt: 'created_at',

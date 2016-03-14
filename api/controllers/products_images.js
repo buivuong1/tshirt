@@ -4,6 +4,8 @@ var uuid = require('node-uuid');
 
 module.exports = {
 	postCreate: function(req, res){
+		var uid = uuid.v4();
+
 		models.rel_images.create({
 			ref_table: 'products',
 			ref_id: 1,

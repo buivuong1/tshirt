@@ -26,6 +26,4 @@ var config = {
     ]
 }
 
-module.exports = function(){
-    return config;
-}
+module.exports = config;
